@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/psi-frontend-mobile/static/css/main.584be6aa.chunk.css",
+    "main.js": "/psi-frontend-mobile/static/js/main.5f3be963.chunk.js",
+    "main.js.map": "/psi-frontend-mobile/static/js/main.5f3be963.chunk.js.map",
+    "runtime-main.js": "/psi-frontend-mobile/static/js/runtime-main.b22caa34.js",
+    "runtime-main.js.map": "/psi-frontend-mobile/static/js/runtime-main.b22caa34.js.map",
+    "static/css/2.5f5f9133.chunk.css": "/psi-frontend-mobile/static/css/2.5f5f9133.chunk.css",
+    "static/js/2.37b83d07.chunk.js": "/psi-frontend-mobile/static/js/2.37b83d07.chunk.js",
+    "static/js/2.37b83d07.chunk.js.map": "/psi-frontend-mobile/static/js/2.37b83d07.chunk.js.map",
+    "static/js/3.65817ad3.chunk.js": "/psi-frontend-mobile/static/js/3.65817ad3.chunk.js",
+    "static/js/3.65817ad3.chunk.js.map": "/psi-frontend-mobile/static/js/3.65817ad3.chunk.js.map",
+    "index.html": "/psi-frontend-mobile/index.html",
+    "static/css/2.5f5f9133.chunk.css.map": "/psi-frontend-mobile/static/css/2.5f5f9133.chunk.css.map",
+    "static/css/main.584be6aa.chunk.css.map": "/psi-frontend-mobile/static/css/main.584be6aa.chunk.css.map",
+    "static/js/2.37b83d07.chunk.js.LICENSE.txt": "/psi-frontend-mobile/static/js/2.37b83d07.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b22caa34.js",
+    "static/css/2.5f5f9133.chunk.css",
+    "static/js/2.37b83d07.chunk.js",
+    "static/css/main.584be6aa.chunk.css",
+    "static/js/main.5f3be963.chunk.js"
+  ]
+}
