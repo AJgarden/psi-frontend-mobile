@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap')
+
+html
+  font-size: 16px
+body
+  line-height: 1.5
+  font-size: 1rem
+  font-family: 'Lexend', 'Noto Sans TC', sans-serif
+
+// ant design
+.ant-input
+  &:disabled
+    color: rgba(0, 0, 0, 0.85)
+.ant-input-number-disabled
+  color: rgba(0, 0, 0, 0.85)
+.ant-select
+  &.ant-select-disabled
+    &:not(.ant-select-customize-input)
+      .ant-select-selector
+        color: rgba(0, 0, 0, 0.85)
+.ant-picker-input
+  > input:disabled
+    color: rgba(0, 0, 0, 0.85)
+.ant-switch
+  vertical-align: top
+.ant-drawer-bottom
+  .ant-drawer-content-wrapper
+    width: 1200px
+    height: 90vh !important
+    top: 10vh
+    left: 50%
+    bottom: 0
+    transform: translate(-50%, 100%) !important
+  &.ant-drawer-open
+    .ant-drawer-content-wrapper
+      transform: translate(-50%, 0) !important
+.ant-popover
+  &.hidden
+    display: none
+
+.layout-wrapper
+  min-height: 100vh
+  min-height: -webkit-fill-available
+  .layout-header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: 48px
+    line-height: 24px
+    font-size: 1rem
+    color: #ffffff
+    background: rgba(38,70,83,.9)
+    padding: 0 15px
+    .layout-header-name
+      display: flex
+      align-items: center
+      .layout-header-name-avatar
+        width: 34px
+        height: 34px
+        background: #e9c46a
+        border-radius: 100%
+        margin-right: 6px
+        padding: 2px
+        .anticon,
+        .anticon svg
+          display: block
+          width: 30px
+          height: 30px
+          color: #ffffff
+    .layout-header-logout
+      .ant-btn
+        display: block
+        width: 34px
+        height: 34px
+        border: none
+        background: transparent
+        border-radius: 100%
+        padding: 2px
+        &::after
+          border-color: #52b69a
+        .anticon,
+        .anticon svg
+          display: block
+          width: 30px
+          height: 30px
+  .layout-content
+    padding: 20px 15px
+  .layout-footer
+    height: 36px
+    line-height: 22px
+    font-size: 0.75rem
+    color: #7f7f7f
+    background: #ffffff
+    text-align: center
+    padding: 7px 15px
+
+.mainpage-wrapper
+  .ant-col
+    .ant-btn
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 100%
+      height: 68px
+      color: #ffffff
+      padding: 4px 9px
+      > span
+        display: block
+      .anticon,
+      .anticon svg
+        display: block
+        fill: #ffffff
+      &:disabled
+        border-color: #a6a6a6
+        background: #c5c5c5
+    &:nth-child(6n+1)
+      .ant-btn:not(:disabled)
+        border-color: #ef476f
+        background: rgba(#ef476f, 0.8)
+    &:nth-child(6n+2)
+      .ant-btn:not(:disabled)
+        border-color: #f77f00
+        background: rgba(#f77f00, 0.8)
+    &:nth-child(6n+3)
+      .ant-btn:not(:disabled)
+        border-color: #90be6d
+        background: rgba(#90be6d, 0.8)
+    &:nth-child(6n+4)
+      .ant-btn:not(:disabled)
+        border-color: #00afb9
+        background: rgba(#00afb9, 0.8)
+    &:nth-child(6n+5)
+      .ant-btn:not(:disabled)
+        border-color: #3a86ff
+        background: rgba(#3a86ff, 0.8)
+    &:nth-child(6n)
+      .ant-btn:not(:disabled)
+        border-color: #9d4edd
+        background: rgba(#9d4edd, 0.8)
+
+
+
